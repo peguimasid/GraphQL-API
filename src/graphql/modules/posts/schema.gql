@@ -13,7 +13,7 @@ input PostInput {
 
 type Query {
   posts: [Post!]!
-  findPostBy(id: ID!) Post
+  findPostBy(id: ID!): Post
 }
 
 type Mutation {
